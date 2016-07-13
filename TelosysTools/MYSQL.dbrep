@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Telosys Database Repository --><root>
+<tableList databaseId="0" databaseName="MYSQL" databaseProductName="MySQL" generation="2016-07-13 14:15:29">
+<table catalog="distribuidora" databaseType="TABLE" javaBean="Clientes" name="clientes" schema="">
+<column dbComment="" dbDefaultValue="" dbName="idclientes" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="10" dbTypeName="INT" inputType="number" javaName="idclientes" javaType="java.lang.Integer" jdbcTypeCode="4" label="Idclientes" notNull="true" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="nombre" dbNotNull="false" dbPosition="2" dbSize="100" dbTypeName="VARCHAR" inputType="text" javaName="nombre" javaType="java.lang.String" jdbcTypeCode="12" label="Nombre" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="apellido" dbNotNull="false" dbPosition="3" dbSize="100" dbTypeName="VARCHAR" inputType="text" javaName="apellido" javaType="java.lang.String" jdbcTypeCode="12" label="Apellido" maxLength="100" notNull="false" selected="true"/>
+<column dbComment="" dbDefaultValue="" dbName="telefono" dbNotNull="false" dbPosition="4" dbSize="45" dbTypeName="VARCHAR" inputType="text" javaName="telefono" javaType="java.lang.String" jdbcTypeCode="12" label="Telefono" maxLength="45" notNull="false" selected="true"/>
+</table>
+</tableList>
+</root>
